@@ -4,19 +4,7 @@
   <artifactId>selicuk</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
-  <repositories>
-		<repository>
-			<!-- OSSRH: com.sikulix -->
-			<id>com.sikulix</id>
-			<name>com.sikulix</name>
-			<url>https://oss.sonatype.org/content/groups/public</url>
-			<layout>default</layout>
-			<snapshots>
-				<enabled>true</enabled>
-				<updatePolicy>always</updatePolicy>
-			</snapshots>
-		</repository>
-	</repositories>
+ 
 
 	<dependencies>
 		<dependency>
@@ -26,30 +14,8 @@
 			<scope>test</scope>
 		</dependency>
 
-		<dependency>
-			<groupId>com.oracle</groupId>
-			<artifactId>ojdbc6</artifactId>
-			<version>11.2.0</version>
-		</dependency>
-		
-		<!-- https://mvnrepository.com/artifact/com.sikulix/sikulixapi -->
-<dependency>
-    <groupId>com.sikulix</groupId>
-    <artifactId>sikulixapi</artifactId>
-    <version>1.1.0</version>
-</dependency>
 		
 
-	<!--	<dependency>
-			<groupId>com.sikulix</groupId>
-			<artifactId>sikulixapi</artifactId>
-			<version>1.1.4-SNAPSHOT</version>
-		</dependency> -->
-
-
-		<!-- https://mvnrepository.com/artifact/org.sikuli/sikuli-api <dependency> 
-			<groupId>org.sikuli</groupId> <artifactId>sikuli-api</artifactId> <version>1.2.0</version> 
-			</dependency> -->
 
 
 		<dependency>
@@ -155,8 +121,8 @@
 						</goals>
 						<configuration>
 							<projectName>Flemish Taxation</projectName> 
-							<outputDirectory>C:/Data/Flemish/Report/cucumber-reports/advanced-reports</outputDirectory>
-							<cucumberOutput>C:/Data/Flemish/Report/cucumber-reports/CucumberTestReport.json</cucumberOutput>
+							<outputDirectory>ReportPath/cucumber-reports/advanced-reports</outputDirectory>
+							<cucumberOutput>ReportPath/cucumber-reports/CucumberTestReport.json</cucumberOutput>
 							<buildNumber>1</buildNumber>
 							<!--<skippedFails>True</skippedFails> -->
 							<enableFlashCharts>True</enableFlashCharts>
