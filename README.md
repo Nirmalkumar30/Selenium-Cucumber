@@ -10,7 +10,7 @@ Cucumber is compatible with all the major software platforms.
 
 # Selenium-Cucumber
 Step 1:
-Modify the Driver path under src\test\java\com\selicuk\CommonLibr\GenericLib and Report Path under src\test\java\com\selicuk\runner\Runner as well as in pom.xml
+Modify the Driver path under src\test\java\com\selicuk\CommonLibr\GenericLib and Report Path under src\test\java\com\selicuk\runner\Runner as well as in pom.xml and Config_Property_Path in src\test\java\com\selicuk\CommonLibr\ConfigLibr
 
 Step 2:
 Command line to run: mvn test -Dbrowser="Chrome"
