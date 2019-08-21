@@ -19,7 +19,7 @@ public class Login_Steps extends BaseClass implements En {
 		loginPg = new Login_Page();
 		genericLib = new GenericLib();
 		
-		Given("User enter the correct email id as '(.*)' in the email address field$", (String emailID) -> {
+		Given("User enter the correct email id as '(.*)' in the email address field after launching the application$", (String emailID) -> {
 			try {
 				boolean result = loginPg.enterUsername(emailID);
 				assertEquals(result, true);
