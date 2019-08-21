@@ -6,7 +6,7 @@ Feature: Send Email using gmail
 
   @tag1
   Scenario Outline: Login in to Gmail
-    Given User enter the correct email id as '<EmailID>' in the email address field
+    Given User enter the correct email id as '<EmailID>' in the email address field after launching the application
     When User click on the Next button
     And User enter the correct password as '<Password>' in the password field
     And User click on the Next button
